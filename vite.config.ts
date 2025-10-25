@@ -10,6 +10,8 @@ const __dirname = dirname(__filename);
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // *** إضافة مسار القاعدة لحل مشكلة التصميم ***
+  base: './', 
   plugins: [react( )],
   root: resolve(__dirname, 'client'),
   build: {
@@ -22,7 +24,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': resolve(__dirname, 'client/src'),
-      // *** هذا هو السطر الذي أضفناه لحل مشكلة @shared ***
+      // *** إضافة مسار @shared لحل مشكلة البناء ***
       '@shared': resolve(__dirname, 'shared'), 
     },
   },
