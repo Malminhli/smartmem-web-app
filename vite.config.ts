@@ -22,6 +22,8 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': resolve(__dirname, 'client/src'),
+      // *** هذا هو السطر الذي أضفناه لحل مشكلة @shared ***
+      '@shared': resolve(__dirname, 'shared'), 
     },
   },
   esbuild: {
