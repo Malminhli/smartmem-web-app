@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1760880419762,
+      "tag": "0000_groovy_saracen",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1760880878382,
+      "tag": "0001_clumsy_power_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1761278267474,
+      "tag": "0002_outgoing_roughhouse",
+      "breakpoints": true
+    }
+  ]
+}
